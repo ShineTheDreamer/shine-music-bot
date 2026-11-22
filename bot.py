@@ -532,4 +532,4 @@ async def on_done(cb: CallbackQuery, state: FSMContext, bot: Bot) -> None:
 
     lock = user_locks[cb.from_user.id]
     if lock.locked():
-        await cb.answer("⏳ Подожди, идёт обработка...
+        await cb.answer("⏳ Подожди, идёт обработка...")
